@@ -6,7 +6,7 @@ function Profile() {
   return (
     <div className='profile'>
       <img src={ProfileImage} alt='Profile' id='profile__img' className='rounded-circle mb-3' style={{width: 150, height:150}}/>
-      <h5 id='twitter'>@wainainaHellen_</h5>
+      <h5 id='twitter'>wainainaHellen_</h5>
       <h5 id='slack' hidden>Hellen Wainaina</h5>
     </div>
   )

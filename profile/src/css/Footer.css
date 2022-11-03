@@ -1,0 +1,30 @@
+.footer{
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    padding: 10px;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background: black;
+}
+
+.zuri{
+    text-align: left;
+}
+
+.i4g{
+    text-align: right;
+}
+
+@media screen and (max-width: 480px) {
+    .i4g{
+      text-align: left;
+    }
+    .hng{
+        text-align: left;
+    }
+  }
