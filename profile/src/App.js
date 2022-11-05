@@ -1,11 +1,17 @@
 import './App.css';
 import Page from './screens/Page';
-import Footer from './components/Footer';
+import Contact from './screens/Contact';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom'
 
 function App() {
   return ( 
     <div className="App ">
-      <Page />
+      <Router>
+        <Routes>
+          <Route path='/' element={<Page />}/>
+          <Route path='/contact' element={<Contact />}/>
+        </Routes>
+      </Router>
     </div>
   );
 }

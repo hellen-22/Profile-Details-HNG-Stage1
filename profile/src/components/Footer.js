@@ -9,13 +9,13 @@ function Footer() {
         <hr></hr>
         <div className='row'>
             <div className='col-md-4 zuri'>
-                <img src={Zuri} style={{width: 150, height:20}}/>
+                <img src={Zuri} style={{width: 150, height:20}} alt='Zuri Internship'/>
             </div>
             <div className='col-md-4 hng'>
                 <p>HNG Internship 9 Frontend</p>
             </div>
             <div className='col-md-4 i4g'>
-                <img src={i4g} style={{width: 100, height:20}}/>
+                <img src={i4g} style={{width: 100, height:20}} alt='I4G'/>
             </div>
             
             

@@ -1,0 +1,26 @@
+.contact1{
+    width: 1440px;
+    
+}
+
+.contact{
+    width: 720px;
+    padding: 64px 0px 64px 0px;
+    margin: 0 auto;
+}
+
+.message{
+    width: 100%;
+}
+
+@media  screen and (max-width: 480px) {
+    form{
+        padding-bottom: 10px;
+    }
+    .contact1{
+        width: 375px;
+    }
+    .contact{
+        width: 343px;
+    }
+}
